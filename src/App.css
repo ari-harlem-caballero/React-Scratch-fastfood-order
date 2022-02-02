@@ -4,6 +4,10 @@ body, html, #root, .App {
 
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -16,7 +20,36 @@ body, html, #root, .App {
   }
 }
 
+.order-area {
+  width: 100%;
+}
+
+.titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.titles p {
+  margin: 6px 40px;
+}
+
 img {
-  width: 30%;
-  margin: 5px;
+  width: 28%;
+  margin: 15px 6px;
+  border: 2px solid black;
+}
+
+.dropdowns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  margin: 2px 10px;
+  padding: 3px;
+  border-radius: 10px;
 }
