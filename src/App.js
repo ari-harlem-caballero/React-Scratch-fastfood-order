@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import './App.css';
-import orderImages from './components/orderImages';
-import foodDropdown from './components/Dropdowns/foodDropdown';
-import drinkDropdown from './components/Dropdowns/drinkDropdown';
-import sideDropdown from './components/Dropdowns/sideDropdown';
+import OrderImages from './components/OrderImages';
+import FoodDropdown from './components/Dropdowns/FoodDropdown';
+import DrinkDropdown from './components/Dropdowns/DrinkDropdown';
+import SideDropdown from './components/Dropdowns/SideDropdown';
 import InstructionList from './components/Instructions/InstructionList';
-import instructionForm from './components/Instructions/instructionForm';
-import orderName from './components/orderName';
+import InstructionForm from './components/Instructions/InstructionForm';
+import OrderName from './components/OrderName';
 
 function App() {
   const [foodId, setFoodId] = useState(1);
@@ -19,18 +19,21 @@ function App() {
     <div className="App">
       <h1>Welcome to the Hippest Joint in Town</h1>
       <h3>Order for {orderName}</h3>
+
       <section className='order-area'>
-        <orderImages
+        <OrderImages
           foodId={foodId}
           sideId={sideId}
           drinkId={drinkId} />
+
         <div className='dropdowns'>
-          <foodDropdown setFoodId={setFoodId} />
-          <sideDropdown setSideId={setSideId} />
-          <drinkDropdown setDrinkId={setDrinkId} />
+          <FoodDropdown setFoodId={setFoodId} />
+          <SideDropdown setSideId={setSideId} />
+          <DrinkDropdown setDrinkId={setDrinkId} />
         </div>
-        <orderName setOrderName={setOrderName} />
-        <instructionForm setInstructionsArr={setInstructionsArr} instructionsArr={instructionsArr} />
+
+        <OrderName setOrderName={setOrderName} />
+        <InstructionForm setInstructionsArr={setInstructionsArr} instructionsArr={instructionsArr} />
         <InstructionList instructionsArr={instructionsArr} />
       </section>
     </div>

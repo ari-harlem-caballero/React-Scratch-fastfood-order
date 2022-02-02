@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function instructionForm() {
+export default function InstructionForm() {
   return <div></div>;
 }

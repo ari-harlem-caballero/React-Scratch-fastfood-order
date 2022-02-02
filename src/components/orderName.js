@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function orderName() {
+export default function OrderName() {
   return <div></div>;
 }

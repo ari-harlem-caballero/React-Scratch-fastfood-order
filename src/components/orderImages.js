@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function orderImages({ foodId, sideId, drinkId }) {
+export default function OrderImages({ foodId, sideId, drinkId }) {
   return <div className='order-images'>
     <img src={`food-${foodId}.jpg`}/>
     <img src={`side-${sideId}.jpg`}/>

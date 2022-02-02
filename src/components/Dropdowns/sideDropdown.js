@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function sideDropdown() {
+export default function SideDropdown() {
   return <div></div>;
 }

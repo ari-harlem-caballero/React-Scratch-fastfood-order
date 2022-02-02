@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function foodDropdown() {
+export default function FoodDropdown() {
   return <div></div>;
 }
