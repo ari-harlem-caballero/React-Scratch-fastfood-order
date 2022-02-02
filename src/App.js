@@ -10,7 +10,14 @@ function App() {
 
   return (
     <div className="App">
-     App Blah Blah
+      <h1>Welcome to the Hippest Joint in Town</h1>
+      <h3>Order for {orderName}</h3>
+      <section className='order-area'>
+        <orderImages
+          foodId={foodId}
+          sideId={sideId}
+          drinkId={drinkId} />
+      </section>
     </div>
   );
 }
