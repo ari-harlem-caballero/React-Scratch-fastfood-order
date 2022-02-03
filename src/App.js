@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import './App.css';
 import OrderImages from './components/orderImages';
-import FoodDropdown from './components/Dropdowns/FoodDropdown';
-import DrinkDropdown from './components/Dropdowns/DrinkDropdown';
-import SideDropdown from './components/Dropdowns/SideDropdown';
+import FoodDropdown from './components/Dropdowns/foodDropdown';
+import DrinkDropdown from './components/Dropdowns/drinkDropdown';
+import SideDropdown from './components/Dropdowns/sideDropdown';
 import InstructionList from './components/Instructions/InstructionList';
-import InstructionForm from './components/Instructions/InstructionForm';
+import InstructionForm from './components/Instructions/instructionForm';
 import OrderName from './components/orderName';
 
 function App() {
