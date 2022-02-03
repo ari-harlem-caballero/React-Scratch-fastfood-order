@@ -19,7 +19,6 @@ function App() {
     <div className="App">
       <h1>Welcome to the Hippest Joint in Town</h1>
       <h2>Order for {orderName}</h2>
-      {/* <button>Test</button> */}
 
       <section className='order-area'>
         <OrderImages
@@ -28,7 +27,7 @@ function App() {
           drinkId={drinkId} />
 
         <div className='titles'>
-          <p>Main:</p>
+          <p>Main: </p>
           <p>Side: </p>
           <p>Drink: </p>
         </div>
