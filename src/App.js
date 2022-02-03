@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import './App.css';
-import OrderImages from './components/OrderImages';
+import OrderImages from './components/orderImages';
 import FoodDropdown from './components/Dropdowns/FoodDropdown';
 import DrinkDropdown from './components/Dropdowns/DrinkDropdown';
 import SideDropdown from './components/Dropdowns/SideDropdown';
 import InstructionList from './components/Instructions/InstructionList';
 import InstructionForm from './components/Instructions/InstructionForm';
-import OrderName from './components/OrderName';
+import OrderName from './components/orderName';
 
 function App() {
   const [foodId, setFoodId] = useState(1);
