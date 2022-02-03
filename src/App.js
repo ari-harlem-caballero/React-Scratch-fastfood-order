@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <h1>Welcome to the Hippest Joint in Town</h1>
-      <h3>Order for {orderName}</h3>
+      <h2>Order for {orderName}</h2>
       {/* <button>Test</button> */}
 
       <section className='order-area'>
